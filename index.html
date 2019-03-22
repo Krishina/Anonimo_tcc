@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--O site ficará responsivo-->
+		<title>Ainda tentando</title><!--mudar título-->
+		<link rel="icon" href="img/anonimo.png"><!--mudar ícone-->
+		<!--Materialize css, aqui é onde é feita a conecção-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<!--Conexão com o arquivo css-->
+		<link rel="stylesheet"  href="css/custom.css">
+		<!--GOOGLE-ICONSImporta os ícones go google-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+
+		<!--HEADER-->
+		<!--Menu-->
+		<header>
+			<!--Segunda lista menu mobile-->
+						<!--Será chamado pelo id-->
+						<!--Quando estamos usando links internos, no servidor local, deve-se colocar # antes do section de cada elemento-->
+						<ul class="side-nav" id="menu-mobile">
+							<li><a href="#home">Início</a></li>
+							<li><a href="#ajuda">Precisa de ajuda?</a></li>
+							<li><a href="#sobre">Informações úteis</a></li>
+							<li><a href="#contato">Sobre nós!</a></li>
+							<li><a href="#dica">Denuncie</a></li>
+						
+							
+						</ul>
+
+			<!--Esta div com a class navbar-fixed, serão responsável pela fixação do menu na página-->
+			<div class="navbar-fixed">
+				<!--A classe z-depht-0 controla o nível do sombreamento-->
+				<nav class="navbar z-depht-0">
+					<div class="nav-wrapper contatiner">
+						<!--não aparece no layout da página e sim para os navegadores-->
+						<h1 class="logo_text">Nome do site e slongan</h1>
+						<!--Logo do site-ALTERARR IMG-->
+						<a href=""><img class="logo_img" src="" alt="Nome do site"></a>
+						<!--LISTA DE LINKS, EX: INÍCIO SOBRE NÓS, CONTATO-->
+						<ul class="right light hide-on-med-and-down">
+							<!--Os elementos do menu serão escondidos nos tablets e celulares-->
+							<!--O menu é posicionada à esquerda com a classe right e tem caracteres suavizados com a classe light-->
+							<!--Trocar contato para denuncie-->
+							<!----->
+							<li><a href="#home">Início</a></li>
+							<li><a href="#ajuda">Precisa de ajuda?</a></li>
+							<li><a href="#sobre">Informações úteis</a></li>
+							<li><a href="#contato">Sobre nós</a></li>
+							<li><a href="#dica">Denuncie!</a></li>
+							</ul>
+
+							<!--Fazer sobre pois o ajuda virou sobre-->
+						
+						<!--BOTÃO somente para menu mobile-->
+						<!--data-active, chama o id do segundo menu-->
+						<a href="#" data-activates="menu-mobile" class="button-collapse right"><ic class="material-icons">menu</i></a>
+
+						
+										
+					</div>
+				</nav>
+			</div>
+	</header>
+	<!--hOME-->
+		<!--Fim menu-->
+
+
+		<!--classe ligada com o, NÃO ESQUECER DE TROCAR IMAGEM, css e ao bloco inicial do site-->
+		<section class="home bloco scroollspy" id="home">
+			<div class="row container banner">
+				<!--Div que centraliza informações da página-->
+				<div class="col-s12-center">
+				<h2 class="white-text center">Faça sua denúncia anonima aqui!</h2><!--Chamada principal da home-->
+				<p class="white-text light center">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Cevadis im ampola pa arma uma pindureta.</p><!--ADICIONAR O TEXTO DE ENTRADA-->
+				<!--Classe botões exemplo- saiba+ e contatos-->
+				<!--Classe blue-logo deve ser alterada-->
+				<div class="row center">
+					<a class="btn btn-large blue-logo ">Denuncie</a>
+					<a class="btn btn-large white black-text">saiba+</a>
+					
+				</div>
+				</div>
+			</div>
+		</section>
+		<!--Ajuda-->
+		<!--Chama a classe bloco no arquivo css-->
+		<section class="ajuda bloco scroollspy " id="ajuda">
+				<div class="row container">
+					<div class="col s12 center">
+						<h2 class="light">O que é uma denúncia Anonima?</h2>
+					</div>
+					<div class="col s12 l6">
+						<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá aa muito paradis? Toma um mé que o mundo vai girarzis! Copo furadis é disculpa de bebadis, arcu quam euismod magna. Admodum accumsan aadisputationi eu sit. Videeee electram sadipscing et aaaaaaa per. Per aumento de cachacis, eu reclamisasasa.</p>
+					</div>
+					<div class="col s12 16" >
+							<div class="carousel carousel-slider" data-indicators="true">
+									<a href="#" class="carousel-item">
+										<img alt="Tcc" src="img/banner01.jpg" ></a>
+									<a href="#" class="carousel-item">
+										<img alt="Tcc" src="img/banner02.jpg" ></a>
+									<a href="#" class="carousel-item">
+										<img alt="Tcc" src="img/banner03.jpg"></a>
+									
+
+									</div>	
+								</div>
+							</div>
+						</div>	
+					</div>
+						
+		
+
+			<div class="row blue-logo" class="motivos_como_porque">
+				<!--Alterar cor aqui!-->
+				<div class="container">
+					<article class="item col s12 m4">
+						<span class="icon"></span><i class="material-icons medium">track_changes</i>
+						<h3 class="light">Motivos</h3>
+						<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Aenean aliquam molestie leo, vitae iaculis nisl. Per aumento de cachacis, eu reclamis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+					</article>
+					<article class="item col s12 m4">
+						<span class="icon"><i class="material-icons medium" >sentiment_very_satisfied</i></span>
+						<h3 class="light">Como</h3>
+						<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Aenean aliquam molestie leo, vitae iaculis nisl. Per aumento de cachacis, eu reclamis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+					</article>
+					<article class="item col s12 m4">
+						<span class="icon"><i class="material-icons medium">favorite_border</i></span>
+						<h3 class="light">Porque?</h3>
+						<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Aenean aliquam molestie leo, vitae iaculis nisl. Per aumento de cachacis, eu reclamis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+					</article>
+					
+				</div>
+			</div>
+		</section>
+
+
+
+		<!--Informações úteis tétulo e texto contendo informações às pessoas-->
+		<section class="sobre bloco scroollspy" id="sobre" >
+			<div class="row container">
+				<div class="col s12 center">
+					<h2 class="light">Informações úteis</h2>
+					<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! </p>
+				</div>
+			</div>
+
+			<!--Cards com informações-->
+			<!--MUDAR IMAGENS E TEXTO DO cartão-->
+			<!--S12- nos smrth. conseguiremos visualizar um card por vez-->
+			<!--M6-Nos tablets 2 cards por linha-->
+			<!--E no desktop 4 cards por linha-->
+
+			<!--Crimes Ambientais-->
+			<div class="row container">
+					<article class="col s12 m6 l3">
+						<div class="card">
+							<div class="card-image"><img src="img/natureza.jpg" alt="texto a decidir" class="materialboxed">
+								<a href="#ambiental-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+									<i class="material-icons">more_horiz</i></a></div>
+								<div class="card-content">
+									<h3 class="card-title">Crimes Ambientais</h3>
+									<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie  Posuere libero varius  Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. ...</p>
+								</div>
+							</div>
+						
+					</article>
+
+					<!--Modal Meio Ambiente-->
+
+				<div class="modal" id="ambiental-modal">
+					<div class="modal-content">
+						<h5 class="light">O que é um crime Ambiental</h5>
+						<p class="light black-text"> Mauris aliquet nunc non turpis scelerisque, eget. Quem manda na minha terra sou euzis!  Posuere libero varius djhfshfikshfirhgh. </p>
+						
+					</div>
+					<div class="modal-footer">
+						<a class="btn blue-logo moda-action modal-close">Sair</a>
+						
+					</div>
+				</div>
+
+				<!--Violência-->
+				<!--TROCAR IMAGENS-->
+				<article class="col s12 m6 l3">
+					<div class="card">
+						<div class="card-image"><img src="img/violencia.jpg" alt="texto a decidir" class="materialboxed">
+							<a class="btn btn-floating halfway-fab blue-logo">
+								<i class="material-icons">more_horiz</i></a></div>
+							<div class="card-content">
+								<h3 class="card-title">Violência/Agressão</h3>
+								<p class="light">Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie  Posuere libero varius  Posuere libero. Nullam a nisl ut ante blandit hendrerit. ...</p>
+							</div>
+						</div>
+					
+				</article>
+
+
+				<!--Tráfico-->
+				<article class="col s12 m6 l3">
+					<div class="card">
+						<div class="card-image"><img src="img/traf.jpg" alt="texto a decidir" class="materialboxed">
+							<a class="btn btn-floating halfway-fab blue-logo">
+								<i class="material-icons">more_horiz</i></a></div>
+							<div class="card-content">
+								<h3 class="card-title">Tráfico</h3>
+								<p class="light">Mussum Ipsum, cacilds vidis Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.Nullam a nisl ut ante blandit hendrerit.   ...</p>
+							</div>
+						</div>
+					
+				</article>
+
+				<article class="col s12 m6 l3">
+					<div class="card">
+						<div class="card-image"><img src="img/bully.jpg" alt="texto a decidir" class="materialboxed">
+							<a class="btn btn-floating halfway-fab blue-logo">
+								<i class="material-icons">more_horiz</i></a></div>
+							<div class="card-content">
+								<h3 class="card-title">Bullying</h3>
+								<p class="light">Mussum Ipsum, cacilds vidis litro abertis...</p>
+							</div>
+						</div>
+					
+				</article>
+
+				
+
+			</div>
+
+
+
+
+
+
+
+		</section>
+
+
+
+
+		<!--Chama o jquery, para ativar as bibliotecas-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--Liga aos arquivos materialize-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<!--Código de inicialização do menu MOBILE-->
+		<!--Js-->
+		<script>
+			$(document).ready(function(){
+				$(".button-collapse").sideNav();
+				//Link interno, transição suavizada usar em todas a classes linkadas
+				$(".scroollspy").scroollSpy({
+					scrollOffset:0
+				});
+
+				//carousel código de inicialização
+				$(".carousel.carousel-slider").carousel({
+					fullWidth: true,
+
+					
+				});
+
+				//Modal
+
+				$(".modal").modal();
+
+			});
+			//quando houver uma rolagem e ela for maior que 100px oloreleadiciona a classe nav color
+			//Remove a classe que muda o menu de cor na home e no Ajuda
+			$(window).on("scroll", function(){
+				if ($(window).scrollTop() >100) { $(".navbar").addClass("nav-color");
+			} else{
+				$(".navbar").removeClass("nav-color");
+			}
+
+			});
+
+		</script>
+          
+
+	</body>
+</html>
